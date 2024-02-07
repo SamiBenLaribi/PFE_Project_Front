@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         -
-          image: "paasrepo.azurecr.io/paasrepo:release1.0"
+          image: "samibenlaribi/frondevops:frontv1.1"
           name: angular
           ports:
             -
