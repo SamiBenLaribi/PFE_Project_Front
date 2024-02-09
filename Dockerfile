@@ -6,4 +6,4 @@ RUN npm run build
 
 FROM nginx:latest
 COPY --from=build /usr/local/app/dist/summer-workshop-angular /usr/share/nginx/html
-EXPOSE 8083
+EXPOSE 82
